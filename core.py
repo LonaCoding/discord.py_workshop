@@ -27,7 +27,7 @@ async def test_response(ctx):
 
 
 if __name__ == "__main__":
-    with open("bot.key") as key:
+    with open(".../bot.key") as key:
         token = key.read()
 
     WorkshopBot.add_cog(Jokes(WorkshopBot))
